@@ -16,10 +16,6 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Container(
-        width: 200,
-        height: 300,
-        color: Colors.purple,
-        child: Text("wcuwucwucwcwcwccuwwcuwuw"),
       ),
     );
   }
