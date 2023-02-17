@@ -25,7 +25,7 @@ class OrderDetails extends StatelessWidget {
           Container(
               color: ConstantColor.gray,
               width: double.infinity,
-              height: height * 0.35,
+              height: height * 0.30,
               padding: EdgeInsets.symmetric(horizontal: width - (width - 20)),
               child: CustomCard(order: order,)),
           Padding(

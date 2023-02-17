@@ -9,7 +9,7 @@ import 'customtextformfield.dart';
 
 class CustomContainerForProduct extends StatelessWidget{
   final space = const SizedBox(
-    height: 5,
+    height: 10,
   );
   @override
   Widget build(BuildContext context) {

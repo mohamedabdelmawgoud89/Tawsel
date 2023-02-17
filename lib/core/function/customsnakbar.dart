@@ -40,5 +40,4 @@ class CustomSnackAlert {
       ),
     );
   }
-// ... another snackbar
 }

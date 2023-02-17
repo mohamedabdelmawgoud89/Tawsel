@@ -11,7 +11,7 @@ class CustomTextFormField extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Container(
-      height: 35,
+      height: 40,
       child: TextFormField(
         decoration:  InputDecoration(
           contentPadding: const EdgeInsets.symmetric(horizontal:10,vertical: 0),
