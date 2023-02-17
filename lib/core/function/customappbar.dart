@@ -1,8 +1,12 @@
-import 'package:flutter/cupertino.dart';
+
+
+
+
 import 'package:flutter/material.dart';
-import 'package:tawsel/core/constant/color.dart';
-import 'package:tawsel/core/constant/imgeassets.dart';
-import 'package:tawsel/core/constant/style.dart';
+
+import '../constant/color.dart';
+import '../constant/imgeassets.dart';
+import '../constant/style.dart';
 
 class CustomAppBar {
   static PreferredSizeWidget showAppBar({required String title,double height = 56.0}) {

@@ -1,7 +1,5 @@
-import 'package:tawsel/model/product.dart';
-
-
 import 'customer.dart';
+import 'product.dart';
 
 class Order{
   final int orderNumber;

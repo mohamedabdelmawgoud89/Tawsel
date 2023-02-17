@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:tawsel/core/constant/variable.dart';
 import '../../core/constant/color.dart';
 import '../../core/constant/style.dart';
+import '../../core/constant/variable.dart';
 import '../../model/order.dart';
 
 

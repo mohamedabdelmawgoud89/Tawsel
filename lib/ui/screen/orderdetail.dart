@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tawsel/core/constant/color.dart';
-import 'package:tawsel/core/constant/imgeassets.dart';
-import 'package:tawsel/core/function/customappbar.dart';
-import 'package:tawsel/ui/widget/Customerdetails.dart';
-import 'package:tawsel/ui/widget/productdetails.dart';
+import '../../core/constant/color.dart';
+import '../../core/constant/imgeassets.dart';
 import '../../core/constant/style.dart';
+import '../../core/function/customappbar.dart';
 import '../../model/order.dart';
+import '../widget/Customerdetails.dart';
 import '../widget/customcard.dart';
+import '../widget/productdetails.dart';
 
 class OrderDetails extends StatelessWidget {
   OrderDetails({Key? key, required this.title, required this.order})

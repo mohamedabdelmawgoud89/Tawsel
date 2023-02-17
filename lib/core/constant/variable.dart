@@ -1,7 +1,7 @@
-import 'package:tawsel/model/customer.dart';
-import 'package:tawsel/model/order.dart';
-
+import '../../model/customer.dart';
+import '../../model/order.dart';
 import '../../model/product.dart';
+
 
 class Variable {
   static const products = 'المنتجات';

@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tawsel/core/constant/style.dart';
-import 'package:tawsel/model/customer.dart';
+
+import '../../core/constant/style.dart';
+import '../../model/customer.dart';
+
 
 
 class CustomerDetails extends StatelessWidget{

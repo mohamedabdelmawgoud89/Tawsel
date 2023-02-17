@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tawsel/ui/screen/neworder.dart';
+import 'ui/screen/neworder.dart';
+
 
 void main() {
 
@@ -19,11 +20,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
             primarySwatch: Colors.blue,
       ),
-      home:   const Directionality( // add this
+      home:    const Directionality( // add this
         textDirection: TextDirection.rtl, // set this property
         child:  NewOrder(title: "طلب جديد",)
         //OrderDetails(title:Variable.productDetails,order: Variable.order,),
-        //NewOrder(title: Variable.newOrderPageText ),
       ),
     );
   }

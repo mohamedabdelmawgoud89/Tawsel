@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tawsel/core/constant/color.dart';
+
+import 'color.dart';
+
 
 class Style {
   static const TextStyle style1 = TextStyle(

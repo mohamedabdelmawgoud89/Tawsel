@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tawsel/core/constant/color.dart';
-
+import '../../core/constant/color.dart';
 import '../../core/constant/style.dart';
 
 class CustomTextFormField extends StatelessWidget {

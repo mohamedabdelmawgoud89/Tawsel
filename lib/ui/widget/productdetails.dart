@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:tawsel/core/constant/variable.dart';
-import 'package:tawsel/model/product.dart';
+
 import '../../core/constant/style.dart';
+import '../../core/constant/variable.dart';
+import '../../model/product.dart';
 
 class ProductDetails extends StatelessWidget {
   ProductDetails({Key? key, required this.prodcutList}) : super(key: key);
