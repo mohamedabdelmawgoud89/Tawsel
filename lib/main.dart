@@ -1,44 +1,33 @@
 import 'package:flutter/material.dart';
+import 'package:tawsel/ui/screen/neworder.dart';
 
 void main() {
-  runApp(const MyApp());
+
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
+  final scafoldkey = GlobalKey<ScaffoldMessengerState>();
+   MyApp({Key? key}) : super(key: key);
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      scaffoldMessengerKey: scafoldkey,
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
             primarySwatch: Colors.blue,
       ),
-      home:const MyHomePage(title: 'Flutter Demo Home Page'),
+      home:   const Directionality( // add this
+        textDirection: TextDirection.rtl, // set this property
+        child:  NewOrder(title: "طلب جديد",)
+        //OrderDetails(title:Variable.productDetails,order: Variable.order,),
+        //NewOrder(title: Variable.newOrderPageText ),
+      ),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
 
-  final String title;
 
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-
-   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-      title: Text(widget.title),
-      ),
-      body: Center(),
-        );
-  }
-}

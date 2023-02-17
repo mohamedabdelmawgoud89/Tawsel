@@ -1,13 +1,37 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:tawsel/core/constant/color.dart';
 
 class Style {
   static const TextStyle style1 = TextStyle(
-    height: 2,
-    fontStyle: FontStyle.italic,
+    fontSize: 14,
     fontWeight: FontWeight.bold,
-    color: Colors.orange,
-    fontFamily: 'PlayfairDisplaySC-BlackItalic',
+    color: Color(0XFF191919),
+    fontFamily: 'Cairo-Bold',
+  );
+  static const TextStyle style2 = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: Color(0XFF939393),
+    fontFamily: 'Cairo-Black',
+  );
+  static const TextStyle style3 = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: Color(0xffFF6600),
+    fontFamily: 'Cairo-Black',
+  );
+  static  TextStyle style4 = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: ConstantColor.white,
+    fontFamily: 'Cairo-Black',
+  );
+  static  TextStyle style5 = const TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.bold,
+    color: Colors.black,
+    fontFamily: 'Cairo-Black',
   );
   static ThemeData def = ThemeData(
     textTheme: const TextTheme(
