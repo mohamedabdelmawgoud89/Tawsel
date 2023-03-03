@@ -29,7 +29,7 @@ class order_homepage extends StatelessWidget {
                     Container(
                       height: height * 0.3,
                       child: Image(
-                        image: AssetImage('asset/Fonts/Images/Group 6.png'),
+                        image: AssetImage('asset/Fonts/Images/Group6.png'),
                         fit: BoxFit.fitHeight,
                       ),
                     ),
